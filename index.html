@@ -58,11 +58,20 @@
     </header>
 
     <main>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button data-modal-close class="close-button">
+            <svg class="icon-close" width="11" height="11">
+              <use href="./images/other-pictures/#close.svg"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
 
-          <button type="button" class="button-studio" data-modal-open>
+          <button class="button-studio" data-modal-open>
             Замовити послугу
           </button>
         </div>
@@ -388,12 +397,6 @@
         </div>
       </section>
     </main>
-
-    <div class="backdrop" data-modal>
-      <div class="modal">
-        <button class="close-button" data-modal-close>Закрити</button>
-      </div>
-    </div>
     <footer class="footer">
       <div class="footer-cont container">
         <div class="footer-box">
