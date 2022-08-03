@@ -634,7 +634,7 @@ img {
   background-color: var(--logo-color);
 }
 
-/*------------------------DESIGN--------------------------*/
+/*------------------------DESIGN HEADER----------------------*/
 .current {
   color: var(--logo-color);
   position: relative;
@@ -650,3 +650,29 @@ img {
   border-radius: 2px;
   bottom: -1px;
 }
+
+/*------------------CAPTION TO THE PHOTO----------------------*/
+
+.thumb-work {
+  position: relative;
+}
+
+.signature {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-white-color);
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+/*------------CAPTION TO THE PORTFOLIO-----------------*/
