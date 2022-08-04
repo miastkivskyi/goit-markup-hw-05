@@ -108,6 +108,9 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link:hover,
@@ -134,6 +137,9 @@ img {
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-nav .data:hover,
@@ -307,6 +313,9 @@ img {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-nav .local {
   color: var(--primary-white-color);
@@ -315,6 +324,9 @@ img {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-nav .data:hover,
@@ -367,6 +379,9 @@ img {
   border: none;
   padding: 6px 22px;
   text-align: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-portfolio:hover,
@@ -518,6 +533,9 @@ img {
   justify-content: center;
   align-items: center;
   background-position: center;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .customers-icon {
@@ -563,16 +581,21 @@ img {
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon {
   color: var(--primary-white-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon:hover,
 .footer-icon:focus {
   color: var(--primary-white-color);
-  transition: 250ms;
 }
 
 .footer-soc-link:hover,
@@ -606,6 +629,9 @@ img {
   justify-content: center;
   align-items: center;
   color: #afb1b8;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .name-icon-f,
@@ -727,9 +753,6 @@ img {
   border-radius: 4px;
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.icon-close {
 }
 
 .close-button {
